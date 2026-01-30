@@ -1,72 +1,95 @@
-Global Cybersecurity Threats & Financial Impact Dashboard (2015–2024)
-Overview
+# Global Cybersecurity Threats & Financial Impact Dashboard (2015–2024)
 
-This project analyzes global cybersecurity threats and their financial and user impact from 2015 to 2024.
-The dashboard converts raw cybersecurity data into meaningful insights to support business decisions, risk assessment, and operational awareness.
+## 📊 Overview
+This dashboard provides a comprehensive visualization of global cybersecurity threats and their financial impacts from 2015 to 2024. The dashboard analyzes various metrics including financial losses by country, user impact by attack type, yearly trends, vulnerability types, and defense mechanism effectiveness.
 
-Objectives
+## 🚀 Features
 
-Analyze trends in global cyber attacks
+### 1. **Financial Loss by Country**
+- Displays financial losses (in millions) for key countries including:
+  - UK: 16,503 (321 incidents)
+  - Australia: 15,403 (297 incidents)
+  - USA: 14,812 (287 incidents)
+  - Germany: 15,793 (305 incidents)
+  - Japan: 15,197 (305 incidents)
+  - Brazil: 15,783
+  - France: 14,972
+  - China: 10K (estimated)
 
-Identify high-impact attack types and vulnerabilities
+### 2. **User Impact by Cyber Attack Type**
+- Visualizes the distribution of user impact across different cyber attack types:
+  - SQL Injection
+  - Phishing
+  - Ransomware
+  - Malware
+  - Man-in-the-Middle attacks
 
-Compare financial losses across countries
+### 3. **Yearly Trend Analysis (2014-2026)**
+- Shows the progression of user impact and financial losses over time
+- Covers data from 0M in 2014 to projected 600M in 2026
 
-Evaluate defense mechanisms against financial loss
+### 4. **Vulnerability vs Attack Source Analysis**
+- Compares security vulnerability types with attack sources:
+  - **Attack Sources:** Hacker Group, Insider, Nation-state, Unknown
+  - **Vulnerability Types:** Hacker Group, Insider, Nation-state, Unknown
 
-Present insights using interactive visualizations
+### 5. **Defense Mechanism Effectiveness**
+- Analyzes financial losses despite implementation of various defense mechanisms:
+  - Antivirus
+  - VPN
+  - Encryption
+  - AI-based Detection
+  - Firewall
 
-Key Metrics
+## 📈 Charts Included
 
-Total Cyber Attacks: 3,000
+### Chart 1: Number of Affected Users
+- **X-axis:** 0M to 250M users
+- **Y-axis:** 0 to 200 (scale)
 
-Average Resolution Time: 36.48 hours
+### Chart 2: Total Cyber Attacks
+- **X-axis:** 3,000 to 8,000 attacks
+- **Y-axis:** 0 to 50 (scale)
 
-Total Financial Loss: $151,479 Million USD
+### Chart 3: Average Resolution Time
+- **X-axis:** Detailed timeline from 36.48 to 686+ hours
+- Shows comprehensive resolution time distribution
 
-Dashboard Insights
-
-Financial loss distribution by country
-
-User impact by cyber attack type
-
-Year-wise trend of users affected and financial loss
-
-Relationship between vulnerability types and attack sources
-
-Effectiveness of defense mechanisms in reducing losses
-
-Tools & Technologies
-
-Data Analysis: Excel / Python (Pandas, NumPy)
-
-Visualization: Power BI / Tableau / Matplotlib
-
-Techniques: Data Cleaning, Aggregation, Trend Analysis, KPI Reporting
-
-Repository Structure
+## 📁 Project Structure
 Global-Cybersecurity-Dashboard/
 │── dashboard.png
 │── README.md
 │── cybersecurity_data.csv
 
-Dashboard Preview
 
-Key Takeaways
+📊 Data Sources
+Global cybersecurity incident reports (2015-2024)
 
-DDoS and Phishing attacks affect the largest number of users
+Financial loss databases
 
-Zero-day vulnerabilities pose the highest security risk
+Government and industry security reports
 
-Financial losses continue to rise despite advanced defense mechanisms
+International cybersecurity organizations
 
-Strong correlation exists between attack frequency and financial impact
+🔍 Key Insights
+UK leads in financial losses despite having fewer incidents compared to some countries
 
-Author
+Phishing and ransomware remain the most impactful attack types
 
-Rutuja Kate
-Aspiring Data Analyst | Data Visualization | Business Analytics
+Steady increase in both user impact and financial losses year over year
 
-License
+AI-based detection shows promise but doesn't eliminate all financial losses
 
+🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+📄 License
 This project is created for learning and portfolio purposes.
+
+
+🙏 Acknowledgments
+Data sources and cybersecurity organizations
+
+Contributors and maintainers
+
+The cybersecurity research community
